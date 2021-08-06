@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Gendos';
+    src: local('Gendos Regular'), local('Gendos-Regular'),
+        url('Gendos.woff2') format('woff2'),
+        url('Gendos.woff') format('woff'),
+        url('Gendos.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+  }

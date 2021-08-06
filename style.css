@@ -1,0 +1,139 @@
+/* 
+1. Posicinamiento
+2. Modelo de caja
+3. Tipografia
+4. Visuales
+5. Otros
+*/
+:root {
+    /* Colores */
+    --morado-claro: #621354;
+    --morado-oscuro: #340556;
+    --rojo-claro: #ed1b24;
+    --rojo-oscuro: #bb151a;
+    --amarillo-claro: #FFCA04;
+    --amarrillo-oscuro: #f9a71b;
+    --verde-claro: #01a76d;
+    --verde-oscuro: #007a79;
+    --azul-claro: #00628c;
+    --azul-oscuro: #00437f;
+    --black: #000000;
+    --black-one: #1b1a1b;
+    --grey-one: #343535;
+    --grey-two: #676667;
+    --grey-three: #989998;
+    --grey-four: #b3b2b2;
+  }
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-size: 62.5%;
+}
+@font-face{
+  font-family: "Gendos";
+  src: url(./assets/fonts/Gendos.ttf);
+}
+header{
+    min-width: 320px;
+}
+.boxes{
+    display: flex;
+}
+#box1-top{
+    width: 20%;
+    height: 15px;
+    background-color: var(--black-one);
+}
+#box2-top{
+    width: 20%;
+    height: 15px;
+    background-color: var(--grey-one);
+}
+#box3-top{
+    width: 20%;
+    height: 15px;
+    background-color: var(--grey-two);
+}
+#box4-top{
+    width: 20%;
+    height: 15px;
+    background-color: var(--grey-three);
+}
+#box5-top{
+    width: 20%;
+    height: 15px;
+    background-color: var(--grey-four);
+}
+.header-title{
+    height: 250px;
+    background: linear-gradient(360deg, var(--grey-one) 0%, black 100%);
+}
+.header-title{
+    text-align: center;
+    /* align-self: center; */
+    padding-top: 100px;
+}
+.header-title h1{
+    font-family: Gendos;
+    color: white;
+    font-size: 4rem;
+ 
+}
+.header-title p{
+    font-family: Gendos;
+    color: white;
+    font-size: 1.8rem;
+}
+#box1-mid{
+    width: 20%;
+    height: 15px;
+    background-color: var(--morado-claro);
+}
+#box2-mid{
+    width: 20%;
+    height: 15px;
+    background-color: var(--rojo-claro);
+}
+#box3-mid{
+    width: 20%;
+    height: 15px;
+    background-color: var(--amarillo-claro);
+}
+#box4-mid{
+    width: 20%;
+    height: 15px;
+    background-color: var(--verde-claro);
+}
+#box5-mid{
+    width: 20%;
+    height: 15px;
+    background-color: var(--azul-claro);
+}
+#box1-bot{
+    width: 20%;
+    height: 15px;
+    background-color: var(--morado-oscuro);
+}
+#box2-bot{
+    width: 20%;
+    height: 15px;
+    background-color: var(--rojo-oscuro);
+}
+#box3-bot{
+    width: 20%;
+    height: 15px;
+    background-color: var(--amarrillo-oscuro);
+}
+#box4-bot{
+    width: 20%;
+    height: 15px;
+    background-color: var(--verde-oscuro);
+}
+#box5-bot{
+    width: 20%;
+    height: 15px;
+    background-color: var(--azul-oscuro);
+}
