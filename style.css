@@ -181,7 +181,7 @@ span{
     left: 10px;
 }
 a{
-    color: white;
+    color: white; 
 }
 #email{
     filter: invert(20%) sepia(100%) saturate(4000%);
