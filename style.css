@@ -36,6 +36,9 @@ html{
   font-family: "Gendos";
   src: url(./assets/fonts/Gendos.ttf);
 }
+
+
+/* Header */
 header{
     min-width: 320px;
 }
@@ -136,4 +139,58 @@ header{
     width: 20%;
     height: 15px;
     background-color: var(--azul-oscuro);
+}
+
+
+/* Main */
+main{height: 1000px;}
+
+/* Footer */
+.footer-container{
+    display: flex;
+    width: 100%;
+    min-width: 320px;
+    background: linear-gradient(360deg, black  0%, var(--grey-one) 100%);
+
+}
+.footer-section-iconos{
+    width: 40%;
+    height: 250px;
+    /* background-color: green; */
+}
+.footer-section-contacto{
+    width: 60%;
+    height: 250px;
+    /* background-color: red; */
+}
+.iconos-contacto{
+    width: 20px;
+    height: 20px;
+    color: yellow;
+}
+.footer-items{
+    padding-left: 15px;
+    padding-top: 25px;
+}
+.footer-section-contacto span{
+    color: white;
+}
+span{
+    position: relative;
+    bottom: 5px;
+    left: 10px;
+}
+a{
+    color: white;
+}
+#email{
+    filter: invert(20%) sepia(100%) saturate(4000%);
+}
+#img-direccion{
+    position: relative;
+    left: calc(50% - 40px);
+    top: calc(50% - 60px);    
+    width: 100px;
+    height: 120px;
+    filter: invert(100%);
 }
